@@ -46,8 +46,8 @@ Check Search Failed message does not appear
 
 Check cart summary	[Documentation]	Check that the cart summary is not empty and proceed with checkout process
     SeleniumLibrary.Page Should Contain Element	xpath: //*[contains(text(), "Faded Short Sleeve T-shirts")]
-    SeleniumLibrary.Page Should Contain Element	xpath: //*[contains(text(), "Proceed to checkout")]
-    SeleniumLibrary.Click Element	xpath://a[@title="Proceed to checkout"]
+    SeleniumLibrary.Page Should Contain Element	xpath://*[@title="Proceed to checkout"]
+    SeleniumLibrary.Click Element	xpath://*[@title="Proceed to checkout"]
 
 Proceed to shipment method
     SeleniumLibrary.SeleniumLibrary.Click Element	xpath://*[@name="processAddress"]
