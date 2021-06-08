@@ -12,9 +12,11 @@ Once all requirements are filled, just run the next command in a shell:
 ```shell
 user@host:~/github/qa-automated-test$ docker-compose up -d
 ```
-
+<br></br>
 > The log results will appear in the folder "automation-practice/reports" 
  
+> Due to lack of time + the website was down multiple times (there are evidences in the bug-tuckets folder) I could not 
+> fix an issue in one step, I could not investigate enough if it was a bug or it just was a chrome driver error (from selenium)
 ---
 ## Part 2 - Define a Test case
 For the test definition, using Robotframework-IDE (RIDE) as a Test Management tool it allows to define each 
